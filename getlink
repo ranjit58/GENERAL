@@ -1,0 +1,2 @@
+echo -n `pwd`| sed -e 's/\/home\/rkumar\/workdir/http:\/\/localhost:10080/g'
+echo "/$1"
