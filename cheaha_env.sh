@@ -59,7 +59,8 @@ export CLASSPATH=$CLASSPATH:$MHD/softwares/GenomeAnalysisTK-2.2-10-gbbafb72/Geno
 export GATK=$MHD/softwares/GenomeAnalysisTK-2.2-10-gbbafb72
 export PICARD=$MHD/softwares/picard-tools-1.79
 export PATH=${PATH}:$MHD/softwares/bwa-0.6.2/
-
+export PATH=${PATH}:/share/apps/ngs-ccts/abyss-1.3.4/bin/
+source $MHD/softwares/PAGIT_folder/PAGIT/sourceme.pagit
 
 
 #------   OTHER ENVIRONMENT VARIABLES AND SCRIPTS  --------------------------------
