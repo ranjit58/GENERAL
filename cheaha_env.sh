@@ -75,19 +75,22 @@ source $MHD/softwares/qiime-1.5/activate.sh
 
 #------   ALIAS  --------------------------------
 alias qrsh44='qrsh -l h_rt=04:00:00,s_rt=04:00:00,vf=4G'
+alias qrsh42='qrsh -l h_rt=04:00:00,s_rt=04:00:00,vf=2G'
 alias qrsh22='qrsh -l h_rt=02:00:00,s_rt=02:00:00,vf=2G'
 alias qrsh84='qrsh -l h_rt=08:00:00,s_rt=04:08:00,vf=4G'
 alias qrsh66='qrsh -l h_rt=06:00:00,s_rt=06:00:00,vf=6G'
 
-alias qlgn22='qlogin -l h_rt=02:00:00,vf=2G'
-alias qlgn44='qlogin -l h_rt=04:00:00,vf=4G'
-alias qlgn66='qlogin -l h_rt=06:00:00,vf=6G'
-alias qlgn84='qlogin -l h_rt=08:00:00,vf=4G'
+alias qlogin22='qlogin -l h_rt=02:00:00,vf=2G'
+alias qlogin44='qlogin -l h_rt=04:00:00,vf=4G'
+alias qlogin66='qlogin -l h_rt=06:00:00,vf=6G'
+alias qlogin84='qlogin -l h_rt=08:00:00,vf=4G'
 
 
 alias lsa='ls -lah'
 alias wcl='wc -l'
 alias r8='cd ~/workdir/analysis/microbiome_analysis/R8dec18/R8_analysis/'
+alias r9='cd ~/workdir/analysis/microbiome_analysis/R9feb22/R9_analysis'
+alias vik='cd ~/workdir/analysis/vikram/new_analysis'
 alias git="SSH_ASKPASS='' git"
 #------------------------------------------------
 #source /share/apps/ngs-ccts/QIIME-files-1.6/QIIME-1.6/activate.sh
