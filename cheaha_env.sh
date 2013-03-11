@@ -60,8 +60,9 @@ export GATK=$MHD/softwares/GenomeAnalysisTK-2.2-10-gbbafb72
 export PICARD=$MHD/softwares/picard-tools-1.79
 export PATH=${PATH}:$MHD/softwares/bwa-0.6.2/
 export PATH=${PATH}:/share/apps/ngs-ccts/abyss-1.3.4/bin/
-source $MHD/softwares/PAGIT_folder/PAGIT/sourceme.pagit
-
+export PATH=${PATH}:/share/apps/ngs-ccts/PINDEL/pindel024t/
+#source $MHD/softwares/PAGIT_folder/PAGIT/sourceme.pagit
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/lib/:/usr/lib64/
 
 #------   OTHER ENVIRONMENT VARIABLES AND SCRIPTS  --------------------------------
 export PERL5LIB=$MHD/softwares/vcftools_0.1.9/perl/
@@ -90,7 +91,8 @@ alias lsa='ls -lah'
 alias wcl='wc -l'
 alias r8='cd ~/workdir/analysis/microbiome_analysis/R8dec18/R8_analysis/'
 alias r9='cd ~/workdir/analysis/microbiome_analysis/R9feb22/R9_analysis'
-alias vik='cd ~/workdir/analysis/vikram/new_analysis'
+alias vik='cd ~/workdir/analysis/vikram/newanalysis'
+alias bri='cd /scratch/user/curtish/britt/analysis/'
 alias git="SSH_ASKPASS='' git"
 #------------------------------------------------
 #source /share/apps/ngs-ccts/QIIME-files-1.6/QIIME-1.6/activate.sh
